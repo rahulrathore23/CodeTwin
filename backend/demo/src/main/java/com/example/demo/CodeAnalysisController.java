@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/code")
 @CrossOrigin(origins = {
     "http://localhost:5173",
-    "https://code-twin-git-main-rahulrathore23.vercel.app",
-    "https://code-twin-gyp0r4qtz-rahulrathore23.vercel.app"
+    "https://code-twin-git-main-rahulrathore23.vercel.app"
 })
 public class CodeAnalysisController {
 
