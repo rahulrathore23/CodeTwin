@@ -16,7 +16,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/code/analyze",
+        "https://codetwin-1.onrender.com/api/code/analyze",
         {
           method: "POST",
           headers: {
